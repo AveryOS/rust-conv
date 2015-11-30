@@ -9,7 +9,8 @@
 
     <title>impls.rs.html -- source</title>
 
-    <link rel="stylesheet" type="text/css" href="../../main.css">
+    <link rel="stylesheet" type="text/css" href="../../../rustdoc.css">
+    <link rel="stylesheet" type="text/css" href="../../../main.css">
 
     
     
@@ -466,6 +467,123 @@
 <span id="424">424</span>
 <span id="425">425</span>
 <span id="426">426</span>
+<span id="427">427</span>
+<span id="428">428</span>
+<span id="429">429</span>
+<span id="430">430</span>
+<span id="431">431</span>
+<span id="432">432</span>
+<span id="433">433</span>
+<span id="434">434</span>
+<span id="435">435</span>
+<span id="436">436</span>
+<span id="437">437</span>
+<span id="438">438</span>
+<span id="439">439</span>
+<span id="440">440</span>
+<span id="441">441</span>
+<span id="442">442</span>
+<span id="443">443</span>
+<span id="444">444</span>
+<span id="445">445</span>
+<span id="446">446</span>
+<span id="447">447</span>
+<span id="448">448</span>
+<span id="449">449</span>
+<span id="450">450</span>
+<span id="451">451</span>
+<span id="452">452</span>
+<span id="453">453</span>
+<span id="454">454</span>
+<span id="455">455</span>
+<span id="456">456</span>
+<span id="457">457</span>
+<span id="458">458</span>
+<span id="459">459</span>
+<span id="460">460</span>
+<span id="461">461</span>
+<span id="462">462</span>
+<span id="463">463</span>
+<span id="464">464</span>
+<span id="465">465</span>
+<span id="466">466</span>
+<span id="467">467</span>
+<span id="468">468</span>
+<span id="469">469</span>
+<span id="470">470</span>
+<span id="471">471</span>
+<span id="472">472</span>
+<span id="473">473</span>
+<span id="474">474</span>
+<span id="475">475</span>
+<span id="476">476</span>
+<span id="477">477</span>
+<span id="478">478</span>
+<span id="479">479</span>
+<span id="480">480</span>
+<span id="481">481</span>
+<span id="482">482</span>
+<span id="483">483</span>
+<span id="484">484</span>
+<span id="485">485</span>
+<span id="486">486</span>
+<span id="487">487</span>
+<span id="488">488</span>
+<span id="489">489</span>
+<span id="490">490</span>
+<span id="491">491</span>
+<span id="492">492</span>
+<span id="493">493</span>
+<span id="494">494</span>
+<span id="495">495</span>
+<span id="496">496</span>
+<span id="497">497</span>
+<span id="498">498</span>
+<span id="499">499</span>
+<span id="500">500</span>
+<span id="501">501</span>
+<span id="502">502</span>
+<span id="503">503</span>
+<span id="504">504</span>
+<span id="505">505</span>
+<span id="506">506</span>
+<span id="507">507</span>
+<span id="508">508</span>
+<span id="509">509</span>
+<span id="510">510</span>
+<span id="511">511</span>
+<span id="512">512</span>
+<span id="513">513</span>
+<span id="514">514</span>
+<span id="515">515</span>
+<span id="516">516</span>
+<span id="517">517</span>
+<span id="518">518</span>
+<span id="519">519</span>
+<span id="520">520</span>
+<span id="521">521</span>
+<span id="522">522</span>
+<span id="523">523</span>
+<span id="524">524</span>
+<span id="525">525</span>
+<span id="526">526</span>
+<span id="527">527</span>
+<span id="528">528</span>
+<span id="529">529</span>
+<span id="530">530</span>
+<span id="531">531</span>
+<span id="532">532</span>
+<span id="533">533</span>
+<span id="534">534</span>
+<span id="535">535</span>
+<span id="536">536</span>
+<span id="537">537</span>
+<span id="538">538</span>
+<span id="539">539</span>
+<span id="540">540</span>
+<span id="541">541</span>
+<span id="542">542</span>
+<span id="543">543</span>
 </pre><pre class='rust '>
 <span class='macro'>macro_rules</span><span class='macro'>!</span> <span class='ident'>max_of</span> {
     (<span class='macro-nonterminal'>$</span><span class='macro-nonterminal'>name</span>:<span class='ident'>ident</span>) <span class='op'>=&gt;</span> { ::<span class='ident'>std</span>::<span class='macro-nonterminal'>$</span><span class='macro-nonterminal'>name</span>::<span class='ident'>MAX</span> };
@@ -812,7 +930,7 @@
     <span class='macro'>num_conv</span><span class='macro'>!</span> { <span class='ident'>i32</span><span class='op'>=&gt;</span> <span class='ident'>n</span> <span class='ident'>i8</span>, <span class='ident'>n</span> <span class='ident'>i16</span>, <span class='ident'>w</span> <span class='ident'>i64</span>, <span class='ident'>n</span><span class='op'>+</span><span class='ident'>u8</span>, <span class='ident'>n</span><span class='op'>+</span><span class='ident'>u16</span>, <span class='ident'>w</span><span class='op'>+</span><span class='ident'>u32</span>, <span class='ident'>w</span><span class='op'>+</span><span class='ident'>u64</span> }
     <span class='macro'>num_conv</span><span class='macro'>!</span> { <span class='ident'>i64</span><span class='op'>=&gt;</span> <span class='ident'>n</span> <span class='ident'>i8</span>, <span class='ident'>n</span> <span class='ident'>i16</span>, <span class='ident'>n</span> <span class='ident'>i32</span>, <span class='ident'>n</span><span class='op'>+</span><span class='ident'>u8</span>, <span class='ident'>n</span><span class='op'>+</span><span class='ident'>u16</span>, <span class='ident'>n</span><span class='op'>+</span><span class='ident'>u32</span>, <span class='ident'>w</span><span class='op'>+</span><span class='ident'>u64</span> }
     <span class='macro'>num_conv</span><span class='macro'>!</span> { <span class='ident'>i32</span><span class='op'>=&gt;</span> <span class='attribute'>#[<span class='number'>32</span>]</span> <span class='ident'>e</span> <span class='ident'>isize</span>, <span class='attribute'>#[<span class='number'>64</span>]</span> <span class='ident'>w</span> <span class='ident'>isize</span>, <span class='ident'>w</span><span class='op'>+</span><span class='ident'>usize</span> }
-    <span class='macro'>num_conv</span><span class='macro'>!</span> { <span class='ident'>i64</span><span class='op'>=&gt;</span> <span class='attribute'>#[<span class='number'>32</span>]</span> <span class='ident'>n</span> <span class='ident'>isize</span>, <span class='attribute'>#[<span class='number'>64</span>]</span> <span class='ident'>e</span> <span class='ident'>isize</span>, <span class='ident'>n</span><span class='op'>+</span><span class='ident'>usize</span> }
+    <span class='macro'>num_conv</span><span class='macro'>!</span> { <span class='ident'>i64</span><span class='op'>=&gt;</span> <span class='attribute'>#[<span class='number'>32</span>]</span> <span class='ident'>n</span> <span class='ident'>isize</span>, <span class='attribute'>#[<span class='number'>64</span>]</span> <span class='ident'>e</span> <span class='ident'>isize</span>, <span class='attribute'>#[<span class='number'>32</span>]</span> <span class='ident'>n</span><span class='op'>+</span><span class='ident'>usize</span>, <span class='attribute'>#[<span class='number'>64</span>]</span> <span class='ident'>w</span><span class='op'>+</span><span class='ident'>usize</span> }
 
     <span class='macro'>num_conv</span><span class='macro'>!</span> { <span class='ident'>u8</span><span class='op'>=&gt;</span> <span class='ident'>n</span><span class='op'>-</span><span class='ident'>i8</span>, <span class='ident'>w</span> <span class='ident'>i16</span>, <span class='ident'>w</span> <span class='ident'>i32</span>, <span class='ident'>w</span> <span class='ident'>i64</span>, <span class='ident'>w</span> <span class='ident'>u16</span>, <span class='ident'>w</span> <span class='ident'>u32</span>, <span class='ident'>w</span> <span class='ident'>u64</span>, <span class='ident'>w</span> <span class='ident'>isize</span>, <span class='ident'>w</span> <span class='ident'>usize</span> }
     <span class='macro'>num_conv</span><span class='macro'>!</span> { <span class='ident'>u16</span><span class='op'>=&gt;</span> <span class='ident'>n</span><span class='op'>-</span><span class='ident'>i8</span>, <span class='ident'>n</span><span class='op'>-</span><span class='ident'>i16</span>, <span class='ident'>w</span> <span class='ident'>i32</span>, <span class='ident'>w</span> <span class='ident'>i64</span>, <span class='ident'>n</span><span class='op'>-</span><span class='ident'>u8</span>, <span class='ident'>w</span> <span class='ident'>u32</span>, <span class='ident'>w</span> <span class='ident'>u64</span>, <span class='ident'>w</span> <span class='ident'>isize</span>, <span class='ident'>w</span> <span class='ident'>usize</span> }
@@ -882,6 +1000,11 @@
     <span class='macro'>num_conv</span><span class='macro'>!</span> { <span class='ident'>u16</span><span class='op'>=&gt;</span> <span class='ident'>w</span> <span class='ident'>f32</span>, <span class='ident'>w</span> <span class='ident'>f64</span> }
     <span class='macro'>num_conv</span><span class='macro'>!</span> { <span class='ident'>u32</span><span class='op'>=&gt;</span> <span class='ident'>nf</span> [, <span class='number'>16_777_216</span>] <span class='ident'>f32</span>, <span class='ident'>w</span> <span class='ident'>f64</span> }
     <span class='macro'>num_conv</span><span class='macro'>!</span> { <span class='ident'>u64</span><span class='op'>=&gt;</span> <span class='ident'>nf</span> [, <span class='number'>16_777_216</span>] <span class='ident'>f32</span>, <span class='ident'>nf</span> [, <span class='number'>9_007_199_254_740_992</span>] <span class='ident'>f64</span> }
+
+    <span class='macro'>num_conv</span><span class='macro'>!</span> { <span class='ident'>isize</span><span class='op'>=&gt;</span> <span class='ident'>nf</span> [<span class='op'>+</span><span class='op'>-</span> <span class='number'>16_777_216</span>] <span class='ident'>f32</span>,
+        <span class='attribute'>#[<span class='number'>32</span>]</span> <span class='ident'>w</span> <span class='ident'>f64</span>, <span class='attribute'>#[<span class='number'>64</span>]</span> <span class='ident'>nf</span> [<span class='op'>+</span><span class='op'>-</span> <span class='number'>9_007_199_254_740_992</span>] <span class='ident'>f64</span> }
+    <span class='macro'>num_conv</span><span class='macro'>!</span> { <span class='ident'>usize</span><span class='op'>=&gt;</span> <span class='ident'>nf</span> [, <span class='number'>16_777_216</span>] <span class='ident'>f32</span>,
+        <span class='attribute'>#[<span class='number'>32</span>]</span> <span class='ident'>w</span> <span class='ident'>f64</span>, <span class='attribute'>#[<span class='number'>64</span>]</span> <span class='ident'>nf</span> [, <span class='number'>9_007_199_254_740_992</span>] <span class='ident'>f64</span> }
 }
 
 <span class='kw'>mod</span> <span class='ident'>lang_float_to_int</span> {
@@ -892,6 +1015,118 @@
     <span class='macro'>num_conv</span><span class='macro'>!</span> { <span class='ident'>f64</span><span class='op'>=&gt;</span> <span class='ident'>fan</span> <span class='ident'>i8</span>, <span class='ident'>fan</span> <span class='ident'>i16</span>, <span class='ident'>fan</span> <span class='ident'>i32</span>, <span class='ident'>fan</span> <span class='ident'>i64</span> }
     <span class='macro'>num_conv</span><span class='macro'>!</span> { <span class='ident'>f64</span><span class='op'>=&gt;</span> <span class='ident'>fan</span> <span class='ident'>u8</span>, <span class='ident'>fan</span> <span class='ident'>u16</span>, <span class='ident'>fan</span> <span class='ident'>u32</span>, <span class='ident'>fan</span> <span class='ident'>u64</span> }
     <span class='macro'>num_conv</span><span class='macro'>!</span> { <span class='ident'>f64</span><span class='op'>=&gt;</span> <span class='ident'>fan</span> <span class='ident'>isize</span>, <span class='ident'>fan</span> <span class='ident'>usize</span> }
+}
+
+<span class='kw'>mod</span> <span class='ident'>lang_char_to_int</span> {
+    <span class='kw'>use</span> <span class='ident'>TryFrom</span>;
+    <span class='kw'>use</span> <span class='ident'>ValueFrom</span>;
+    <span class='kw'>use</span> <span class='ident'>errors</span>::{<span class='ident'>NoError</span>, <span class='ident'>PosOverflow</span>};
+
+    <span class='kw'>impl</span> <span class='ident'>TryFrom</span><span class='op'>&lt;</span><span class='ident'>char</span><span class='op'>&gt;</span> <span class='kw'>for</span> <span class='ident'>u32</span> {
+        <span class='kw'>type</span> <span class='prelude-val'>Err</span> <span class='op'>=</span> <span class='ident'>NoError</span>;
+        <span class='attribute'>#[<span class='ident'>inline</span>]</span>
+        <span class='kw'>fn</span> <span class='ident'>try_from</span>(<span class='ident'>src</span>: <span class='ident'>char</span>) <span class='op'>-&gt;</span> <span class='prelude-ty'>Result</span><span class='op'>&lt;</span><span class='ident'>u32</span>, <span class='ident'>Self</span>::<span class='prelude-val'>Err</span><span class='op'>&gt;</span> {
+            <span class='prelude-val'>Ok</span>(<span class='ident'>src</span> <span class='kw'>as</span> <span class='ident'>u32</span>)
+        }
+    }
+
+    <span class='kw'>impl</span> <span class='ident'>TryFrom</span><span class='op'>&lt;</span><span class='ident'>char</span><span class='op'>&gt;</span> <span class='kw'>for</span> <span class='ident'>usize</span> {
+        <span class='kw'>type</span> <span class='prelude-val'>Err</span> <span class='op'>=</span> <span class='ident'>NoError</span>;
+        <span class='attribute'>#[<span class='ident'>inline</span>]</span>
+        <span class='kw'>fn</span> <span class='ident'>try_from</span>(<span class='ident'>src</span>: <span class='ident'>char</span>) <span class='op'>-&gt;</span> <span class='prelude-ty'>Result</span><span class='op'>&lt;</span><span class='ident'>usize</span>, <span class='ident'>Self</span>::<span class='prelude-val'>Err</span><span class='op'>&gt;</span> {
+            <span class='prelude-val'>Ok</span>(<span class='ident'>src</span> <span class='kw'>as</span> <span class='ident'>usize</span>)
+        }
+    }
+
+    <span class='kw'>impl</span> <span class='ident'>TryFrom</span><span class='op'>&lt;</span><span class='ident'>char</span><span class='op'>&gt;</span> <span class='kw'>for</span> <span class='ident'>isize</span> {
+        <span class='kw'>type</span> <span class='prelude-val'>Err</span> <span class='op'>=</span> <span class='ident'>NoError</span>;
+        <span class='attribute'>#[<span class='ident'>inline</span>]</span>
+        <span class='kw'>fn</span> <span class='ident'>try_from</span>(<span class='ident'>src</span>: <span class='ident'>char</span>) <span class='op'>-&gt;</span> <span class='prelude-ty'>Result</span><span class='op'>&lt;</span><span class='ident'>isize</span>, <span class='ident'>Self</span>::<span class='prelude-val'>Err</span><span class='op'>&gt;</span> {
+            <span class='prelude-val'>Ok</span>(<span class='ident'>src</span> <span class='kw'>as</span> <span class='ident'>isize</span>)
+        }
+    }
+
+    <span class='macro'>macro_rules</span><span class='macro'>!</span> <span class='ident'>conv_char_to_int</span> {
+        ($(<span class='macro-nonterminal'>$</span><span class='macro-nonterminal'>ts</span>:<span class='ident'>ty</span>),<span class='op'>*</span> $(,)<span class='op'>*</span>) <span class='op'>=&gt;</span> {
+            $(
+                <span class='kw'>impl</span> <span class='ident'>TryFrom</span><span class='op'>&lt;</span><span class='ident'>char</span><span class='op'>&gt;</span> <span class='kw'>for</span> <span class='macro-nonterminal'>$</span><span class='macro-nonterminal'>ts</span> {
+                    <span class='kw'>type</span> <span class='prelude-val'>Err</span> <span class='op'>=</span> <span class='ident'>PosOverflow</span><span class='op'>&lt;</span><span class='ident'>char</span><span class='op'>&gt;</span>;
+                    <span class='attribute'>#[<span class='ident'>inline</span>]</span>
+                    <span class='kw'>fn</span> <span class='ident'>try_from</span>(<span class='ident'>src</span>: <span class='ident'>char</span>) <span class='op'>-&gt;</span> <span class='prelude-ty'>Result</span><span class='op'>&lt;</span><span class='macro-nonterminal'>$</span><span class='macro-nonterminal'>ts</span>, <span class='ident'>Self</span>::<span class='prelude-val'>Err</span><span class='op'>&gt;</span> {
+                        <span class='op'>&lt;</span><span class='macro-nonterminal'>$</span><span class='macro-nonterminal'>ts</span> <span class='kw'>as</span> <span class='ident'>ValueFrom</span><span class='op'>&lt;</span>_<span class='op'>&gt;&gt;</span>::<span class='ident'>value_from</span>(<span class='ident'>src</span> <span class='kw'>as</span> <span class='ident'>u32</span>)
+                            .<span class='ident'>map_err</span>(<span class='op'>|</span>_<span class='op'>|</span> <span class='ident'>PosOverflow</span>(<span class='ident'>src</span>))
+                    }
+                }
+            )<span class='op'>*</span>
+        };
+    }
+
+    <span class='macro'>macro_rules</span><span class='macro'>!</span> <span class='ident'>conv_char_to_int_wide</span> {
+        ($(<span class='macro-nonterminal'>$</span><span class='macro-nonterminal'>ts</span>:<span class='ident'>ty</span>),<span class='op'>*</span> $(,)<span class='op'>*</span>) <span class='op'>=&gt;</span> {
+            $(
+                <span class='kw'>impl</span> <span class='ident'>TryFrom</span><span class='op'>&lt;</span><span class='ident'>char</span><span class='op'>&gt;</span> <span class='kw'>for</span> <span class='macro-nonterminal'>$</span><span class='macro-nonterminal'>ts</span> {
+                    <span class='kw'>type</span> <span class='prelude-val'>Err</span> <span class='op'>=</span> <span class='ident'>NoError</span>;
+                    <span class='attribute'>#[<span class='ident'>inline</span>]</span>
+                    <span class='kw'>fn</span> <span class='ident'>try_from</span>(<span class='ident'>src</span>: <span class='ident'>char</span>) <span class='op'>-&gt;</span> <span class='prelude-ty'>Result</span><span class='op'>&lt;</span><span class='macro-nonterminal'>$</span><span class='macro-nonterminal'>ts</span>, <span class='ident'>Self</span>::<span class='prelude-val'>Err</span><span class='op'>&gt;</span> {
+                        <span class='op'>&lt;</span><span class='macro-nonterminal'>$</span><span class='macro-nonterminal'>ts</span> <span class='kw'>as</span> <span class='ident'>ValueFrom</span><span class='op'>&lt;</span>_<span class='op'>&gt;&gt;</span>::<span class='ident'>value_from</span>(<span class='ident'>src</span> <span class='kw'>as</span> <span class='ident'>u32</span>)
+                    }
+                }
+            )<span class='op'>*</span>
+        };
+    }
+
+    <span class='macro'>conv_char_to_int</span><span class='macro'>!</span> { <span class='ident'>i8</span>, <span class='ident'>i16</span>, <span class='ident'>i32</span>, <span class='ident'>u8</span>, <span class='ident'>u16</span> }
+    <span class='macro'>conv_char_to_int_wide</span><span class='macro'>!</span> { <span class='ident'>i64</span>, <span class='ident'>u64</span> }
+}
+
+<span class='kw'>mod</span> <span class='ident'>lang_int_to_char</span> {
+    <span class='kw'>use</span> <span class='ident'>TryFrom</span>;
+    <span class='kw'>use</span> <span class='ident'>ValueFrom</span>;
+    <span class='kw'>use</span> <span class='ident'>errors</span>::{<span class='ident'>NoError</span>, <span class='ident'>Unrepresentable</span>, <span class='ident'>UnwrapOk</span>};
+
+    <span class='kw'>impl</span> <span class='ident'>TryFrom</span><span class='op'>&lt;</span><span class='ident'>u8</span><span class='op'>&gt;</span> <span class='kw'>for</span> <span class='ident'>char</span> {
+        <span class='kw'>type</span> <span class='prelude-val'>Err</span> <span class='op'>=</span> <span class='ident'>NoError</span>;
+        <span class='attribute'>#[<span class='ident'>inline</span>]</span>
+        <span class='kw'>fn</span> <span class='ident'>try_from</span>(<span class='ident'>src</span>: <span class='ident'>u8</span>) <span class='op'>-&gt;</span> <span class='prelude-ty'>Result</span><span class='op'>&lt;</span><span class='ident'>char</span>, <span class='ident'>Self</span>::<span class='prelude-val'>Err</span><span class='op'>&gt;</span> {
+            <span class='prelude-val'>Ok</span>(<span class='ident'>src</span> <span class='kw'>as</span> <span class='ident'>char</span>)
+        }
+    }
+    <span class='kw'>impl</span> <span class='ident'>TryFrom</span><span class='op'>&lt;</span><span class='ident'>u16</span><span class='op'>&gt;</span> <span class='kw'>for</span> <span class='ident'>char</span> {
+        <span class='kw'>type</span> <span class='prelude-val'>Err</span> <span class='op'>=</span> <span class='ident'>Unrepresentable</span><span class='op'>&lt;</span><span class='ident'>u16</span><span class='op'>&gt;</span>;
+        <span class='attribute'>#[<span class='ident'>inline</span>]</span>
+        <span class='kw'>fn</span> <span class='ident'>try_from</span>(<span class='ident'>src</span>: <span class='ident'>u16</span>) <span class='op'>-&gt;</span> <span class='prelude-ty'>Result</span><span class='op'>&lt;</span><span class='ident'>char</span>, <span class='ident'>Self</span>::<span class='prelude-val'>Err</span><span class='op'>&gt;</span> {
+            <span class='ident'>TryFrom</span>::<span class='ident'>try_from</span>(
+                <span class='op'>&lt;</span><span class='ident'>u32</span> <span class='kw'>as</span> <span class='ident'>ValueFrom</span><span class='op'>&lt;</span>_<span class='op'>&gt;&gt;</span>::<span class='ident'>value_from</span>(<span class='ident'>src</span>).<span class='ident'>unwrap_ok</span>()
+            ).<span class='ident'>map_err</span>(<span class='op'>|</span>_<span class='op'>|</span> <span class='ident'>Unrepresentable</span>(<span class='ident'>src</span>))
+        }
+    }
+
+    <span class='kw'>impl</span> <span class='ident'>TryFrom</span><span class='op'>&lt;</span><span class='ident'>u32</span><span class='op'>&gt;</span> <span class='kw'>for</span> <span class='ident'>char</span> {
+        <span class='kw'>type</span> <span class='prelude-val'>Err</span> <span class='op'>=</span> <span class='ident'>Unrepresentable</span><span class='op'>&lt;</span><span class='ident'>u32</span><span class='op'>&gt;</span>;
+        <span class='attribute'>#[<span class='ident'>inline</span>]</span>
+        <span class='kw'>fn</span> <span class='ident'>try_from</span>(<span class='ident'>src</span>: <span class='ident'>u32</span>) <span class='op'>-&gt;</span> <span class='prelude-ty'>Result</span><span class='op'>&lt;</span><span class='ident'>char</span>, <span class='ident'>Self</span>::<span class='prelude-val'>Err</span><span class='op'>&gt;</span> {
+            ::<span class='ident'>std</span>::<span class='ident'>char</span>::<span class='ident'>from_u32</span>(<span class='ident'>src</span>).<span class='ident'>ok_or_else</span>(<span class='op'>||</span> <span class='ident'>Unrepresentable</span>(<span class='ident'>src</span>))
+        }
+    }
+
+    <span class='macro'>macro_rules</span><span class='macro'>!</span> <span class='ident'>conv_int_to_char</span> {
+        ($(<span class='macro-nonterminal'>$</span><span class='macro-nonterminal'>ts</span>:<span class='ident'>ty</span>),<span class='op'>*</span> $(,)<span class='op'>*</span>) <span class='op'>=&gt;</span> {
+            $(
+                <span class='kw'>impl</span> <span class='ident'>TryFrom</span><span class='op'>&lt;</span><span class='macro-nonterminal'>$</span><span class='macro-nonterminal'>ts</span><span class='op'>&gt;</span> <span class='kw'>for</span> <span class='ident'>char</span> {
+                    <span class='kw'>type</span> <span class='prelude-val'>Err</span> <span class='op'>=</span> <span class='ident'>Unrepresentable</span><span class='op'>&lt;</span><span class='macro-nonterminal'>$</span><span class='macro-nonterminal'>ts</span><span class='op'>&gt;</span>;
+                    <span class='attribute'>#[<span class='ident'>inline</span>]</span>
+                    <span class='kw'>fn</span> <span class='ident'>try_from</span>(<span class='ident'>src</span>: <span class='macro-nonterminal'>$</span><span class='macro-nonterminal'>ts</span>) <span class='op'>-&gt;</span> <span class='prelude-ty'>Result</span><span class='op'>&lt;</span><span class='ident'>char</span>, <span class='ident'>Self</span>::<span class='prelude-val'>Err</span><span class='op'>&gt;</span> {
+                        <span class='op'>&lt;</span><span class='ident'>u32</span> <span class='kw'>as</span> <span class='ident'>ValueFrom</span><span class='op'>&lt;</span>_<span class='op'>&gt;&gt;</span>::<span class='ident'>value_from</span>(<span class='ident'>src</span>)
+                            .<span class='ident'>map_err</span>(<span class='op'>|</span>_<span class='op'>|</span> <span class='ident'>Unrepresentable</span>(<span class='ident'>src</span>))
+                            .<span class='ident'>and_then</span>(<span class='op'>|</span><span class='ident'>usv</span><span class='op'>|</span> <span class='ident'>TryFrom</span>::<span class='ident'>try_from</span>(<span class='ident'>usv</span>)
+                                .<span class='ident'>map_err</span>(<span class='op'>|</span>_<span class='op'>|</span> <span class='ident'>Unrepresentable</span>(<span class='ident'>src</span>)))
+                    }
+                }
+            )<span class='op'>*</span>
+        };
+    }
+
+    <span class='macro'>conv_int_to_char</span><span class='macro'>!</span> { <span class='ident'>i8</span>, <span class='ident'>i16</span>, <span class='ident'>i32</span>, <span class='ident'>i64</span>, <span class='ident'>isize</span>, <span class='ident'>u64</span>, <span class='ident'>usize</span> }
 }
 </pre>
 </section>
@@ -937,7 +1172,7 @@
 
                 <p>
                     Search functions by type signature (e.g.
-                    <code>vec -> usize</code>)
+                    <code>vec -> usize</code> or <code>* -> vec</code>)
                 </p>
             </div>
         </div>
@@ -946,13 +1181,13 @@
     
 
     <script>
-        window.rootPath = "../../";
+        window.rootPath = "../../../";
         window.currentCrate = "conv";
         window.playgroundUrl = "";
     </script>
-    <script src="../../jquery.js"></script>
-    <script src="../../main.js"></script>
+    <script src="../../../jquery.js"></script>
+    <script src="../../../main.js"></script>
     
-    <script defer src="../../search-index.js"></script>
+    <script defer src="../../../search-index.js"></script>
 </body>
 </html>
