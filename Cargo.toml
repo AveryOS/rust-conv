@@ -16,7 +16,7 @@ exclude = ["update-docs.py"]
 no_std = []
 
 [dependencies]
-custom_derive = "0.1.2"
+custom_derive = {git = "https://github.com/AveryOS/rust-custom-derive.git", rev = "c22a0ce3c34eaf1f25128c68ad687538e0443142"}
 
 [dev-dependencies]
 quickcheck = "0.2.21, < 0.2.25"
