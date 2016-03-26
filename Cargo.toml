@@ -13,7 +13,7 @@ keywords = ["from", "into", "conversion", "approximation"]
 exclude = ["update-docs.py"]
 
 [features]
-no_std = []
+no_std = ["custom_derive/no_std"]
 
 [dependencies]
 custom_derive = {git = "https://github.com/AveryOS/rust-custom-derive.git", rev = "c22a0ce3c34eaf1f25128c68ad687538e0443142"}
